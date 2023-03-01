@@ -1,0 +1,28 @@
+{
+  "name": "for-demo-project",
+  "version": "1.0.0",
+  "description": "- Create a group database `groupXDatabase`. You can clean the db you previously used and resue that.\r - This time each group should have a *single git branch*. Coordinate amongst yourselves by ensuring every next person pulls the code last pushed by a team mate. You branch will be checked as part of the demo. Branch name should follow the naming convention `project/booksManagementGroupX`\r - Follow the naming conventions exactly as instructed.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ayushbirla71/For-demo-project.git"
+  },
+  "keywords": [],
+  "author": "Ayush birla",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ayushbirla71/For-demo-project/issues"
+  },
+  "homepage": "https://github.com/ayushbirla71/For-demo-project#readme",
+  "dependencies": {
+    "aws-sdk": "^2.1268.0",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.7.3",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^2.0.20"
+  }
+}
